@@ -106,8 +106,8 @@ const App = () => {
 ];
   return (
     <div className="parent">
-        {jobOpenings.map((job)=>{
-          return <li key={job.companyName}><Card brandLogo={job.brandLogo} companyName={job.companyName} datePosted={job.datePosted} post={job.post} tag={job.tag} tag2={job.tag2} pay={job.pay} location={job.location} /></li>;
+        {jobOpenings.map((job,idx)=>{
+          return <li key={idx}><Card brandLogo={job.brandLogo} companyName={job.companyName} datePosted={job.datePosted} post={job.post} tag={job.tag} tag2={job.tag2} pay={job.pay} location={job.location} /></li>;
         })}
     </div>
   )

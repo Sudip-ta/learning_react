@@ -19,7 +19,7 @@ const Card = (props) => {
         </div>
         <div className="bottom">
             <div className='bottom_price'>
-              <h3>{props.pay}</h3>
+              <h3>${props.pay}/hr</h3>
               <p>{props.location}</p>
             </div>
             <button>Apply now</button>
