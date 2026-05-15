@@ -1,0 +1,7 @@
+.header{
+    background-color: green;
+    /* width: fit-content; */
+    display: flex;
+    justify-content: space-between;
+}
+.btn{background-color: yellow;}
